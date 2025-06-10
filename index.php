@@ -4,26 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Editor</title>
-    
-    <!-- Inclua os estilos do CodeMirror -->
-    <link rel="stylesheet" href="https://codemirror.net/5/lib/codemirror.css">
-    <link rel="stylesheet" href="https://codemirror.net/5/theme/dracula.css">
-    <!-- Inclua os scripts do CodeMirror -->
-    <script src="https://codemirror.net/5/lib/codemirror.js"></script>
-    <!-- Inclua os modos de linguagem que você precisa -->
-    <script src="https://codemirror.net/5/mode/xml/xml.js"></script>
-    <script src="https://codemirror.net/5/mode/javascript/javascript.js"></script>
-    <script src="https://codemirror.net/5/mode/css/css.js"></script>
-    <script src="https://codemirror.net/5/mode/htmlmixed/htmlmixed.js"></script>
-    <script src="https://codemirror.net/5/addon/edit/closetag.js"></script>
-    
-    <script src="https://codemirror.net/5/addon/search/searchcursor.js"></script>
-    <script src="https://codemirror.net/5/addon/search/search.js"></script>
-    <script src="https://codemirror.net/5/addon/dialog/dialog.js"></script>
-    <link rel="stylesheet" href="https://codemirror.net/5/addon/dialog/dialog.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/split.js/dist/split.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/lib/codemirror.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/theme/dracula.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/addon/dialog/dialog.css">
 </head>
 <body style="margin: 0">
     
@@ -62,6 +45,19 @@
         </div>
     </div>
 </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/lib/codemirror.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/mode/xml/xml.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/mode/javascript/javascript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/mode/css/css.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/mode/htmlmixed/htmlmixed.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/addon/edit/closetag.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/addon/search/searchcursor.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/addon/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/codemirror@5.65.16/addon/dialog/dialog.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/split.js/dist/split.min.js"></script>
 
 <script>
 document.getElementById('downloadBtn').addEventListener('click', function() {
